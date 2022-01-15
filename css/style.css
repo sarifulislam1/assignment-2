@@ -73,6 +73,11 @@ body{
     grid-template-columns: repeat(3, 1fr);
     
 }
+.card img{
+    
+    padding: 20px;
+    width: 100%;
+}
 .card{
     width: 300px;
     height: 500px;
@@ -80,4 +85,33 @@ body{
     margin: 40px;
     margin-left: 60px;
     border-radius: 10px;
+}
+.see-more{
+   
+    outline: 0;
+    border: 0;
+    font-size: 18px;
+    color: #E02C6D;
+    cursor: pointer;
+       
+}
+/* 3rd row */
+.marketing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 400px;
+    margin-right:150px ;
+}
+.banner-left img{
+    width: 30%;
+    margin: 20%;
+}
+/* Footer-part */
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
 }

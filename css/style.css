@@ -92,7 +92,8 @@ body{
     border-radius: 10px;
 }
 .see-more{
-   
+    float: right;
+    margin: 80px;
     outline: 0;
     border: 0;
     font-size: 18px;
@@ -102,17 +103,16 @@ body{
 }
 /* 3rd row */
 .marketing{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    height: 400px;
-    margin-right:150px ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
 }
 .banner-left img{
-    width: 30%;
-    margin: 20%;
+    width: 40%;
+    margin: 10%;
 }
+
 /* Footer-part */
 footer{
     color: white;
@@ -124,18 +124,43 @@ footer{
 
 /* ipad css */
 @media only screen and (min-width:688px) and (max-width:992px) {
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-left p{
+        font-size: 16px;
+    }
     .cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .see-more{
+        margin: 10px;
     }
     .marketing{
         flex-direction: column;
     }
-   
+    .benner-right{
+        margin-bottom: 20px;
+    }
 }
 /* mobile css */
-@media only screen and (min-width:350px) and (max-width:687px) {
+@media only screen and (min-width:300px) and (max-width:687px) {
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
     .cards {
         grid-template-columns: repeat(1, 1fr);
     }
-    
+    .see-more{
+        margin: 10px;
+    }
+    .marketing{
+        flex-direction: column;
+        font-size: 16px;
+    }
+    .benner-right{
+        margin-bottom: 20px;
+       
 }

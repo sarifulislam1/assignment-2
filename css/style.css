@@ -18,6 +18,7 @@ body{
     grid-template-columns: 1fr 1fr;
     
     
+    
 }
 .banner-left p{
     font-size: 18px;
@@ -90,6 +91,7 @@ body{
     margin: 40px;
     margin-left: 60px;
     border-radius: 10px;
+    padding: 15px;
 }
 .see-more{
     float: right;
@@ -116,7 +118,7 @@ body{
 /* Footer-part */
 footer{
     color: white;
-    background-color: black;
+    background-color: #0A0826;
     text-align: center;
     padding: 20px;
 }

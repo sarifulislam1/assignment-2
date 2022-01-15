@@ -60,3 +60,24 @@ body{
     top: 5px;
     box-shadow: 0 2px 0 #f5025b;
 }
+
+/* gallery */
+
+
+.collection{
+    text-align: center;
+}
+.cards{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.card{
+    width: 300px;
+    height: 500px;
+    box-shadow: 0 30px 35px rgba(0, 0, 0, .6);
+    margin: 40px;
+    margin-left: 60px;
+    border-radius: 10px;
+}

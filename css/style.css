@@ -25,6 +25,7 @@ body{
     margin: 20px 0;
 }
 .banner-left h1{
+    
     font-size: 40px;
 }
 .banner-left{
@@ -66,11 +67,15 @@ body{
 
 .collection{
     text-align: center;
+    padding-top: 15px;
+    margin-top: 15px;
 }
 .cards{
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
     
 }
 .card img{
@@ -114,4 +119,23 @@ footer{
     background-color: black;
     text-align: center;
     padding: 20px;
+}
+/* responsive css */
+
+/* ipad css */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .marketing{
+        flex-direction: column;
+    }
+   
+}
+/* mobile css */
+@media only screen and (min-width:350px) and (max-width:687px) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
 }
